@@ -1,0 +1,5 @@
+C:\Users\Stas\Desktop\csharp-lessons\lesson4\hw1\obj\Debug\net7.0\hw1.csproj.AssemblyReference.cache
+C:\Users\Stas\Desktop\csharp-lessons\lesson4\hw1\obj\Debug\net7.0\hw1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stas\Desktop\csharp-lessons\lesson4\hw1\obj\Debug\net7.0\hw1.AssemblyInfoInputs.cache
+C:\Users\Stas\Desktop\csharp-lessons\lesson4\hw1\obj\Debug\net7.0\hw1.AssemblyInfo.cs
+C:\Users\Stas\Desktop\csharp-lessons\lesson4\hw1\obj\Debug\net7.0\hw1.csproj.CoreCompileInputs.cache
