@@ -13,4 +13,4 @@ while (number > 0)
   result = result + (number % 10);
   number = number / 10;
 }
-Console.WriteLine($"Сумма всех чисел в цифре {number} -> {result}");
+Console.WriteLine($"Сумма всех чисел в указанной цифре -> {result}");
