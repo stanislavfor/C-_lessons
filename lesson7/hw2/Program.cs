@@ -8,6 +8,7 @@
 
 int m = 3; // Количество строк
 int n = 4; // Количество столбцов
+// Выводим рандомный массив
 Random random = new Random();
 int[,] arr = new int[m, n];
 Console.WriteLine("Задан исходный массив:");
