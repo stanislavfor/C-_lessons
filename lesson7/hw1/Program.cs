@@ -5,8 +5,12 @@
 // 8 7,8 - 7,1 9
 
 // Задаем размеры массива
-int m = 3; // Количество строк
-int n = 4; // Количество столбцов
+//int m = 3; // Количество строк
+//int n = 4; // Количество столбцов
+Console.Write("Введите количество СТРОК массива: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите количество СТОЛБЦОВ массива: ");
+int n = Convert.ToInt32(Console.ReadLine());
 
 // Создаем двумерный массив
 double[,] array = new double[m, n];
