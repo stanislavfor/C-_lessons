@@ -70,8 +70,8 @@ Console.WriteLine("Задан массив: ");
 printArray(randomArray);
 
 itemSorting(randomArray);
-
-Console.WriteLine("В итоге получается вот такой массив: ");
+Console.WriteLine("Упорядочиваем по убыванию элементы каждой строки.");
+Console.WriteLine("В итоге получаем вот такой массив: ->");
 printArray(randomArray);
 
 Console.WriteLine();

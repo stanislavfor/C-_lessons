@@ -13,7 +13,7 @@ printRule();
 
 void printRule() 
 {
-  System.Console.WriteLine(" Произведение двух матриц  A и B возможно при условии когда, \nколичество СТОЛБЦОВ матрицы A равно количеству СТРОК матрицы B.");
+  System.Console.WriteLine(" Произведение двух матриц A и B возможно при условии, \nкогда количество СТОЛБЦОВ матрицы A равно количеству СТРОК матрицы B.");
 }
 
 // Ввод размерности массивов
@@ -92,7 +92,8 @@ void PrintMatrix1(int[,] array1)
     {
       System.Console.Write($"{array1[i, j]}\t");
     }
-    System.Console.WriteLine();
+  //System.Console.WriteLine();
+    whiteSpace();
   }
 }
 
@@ -105,7 +106,8 @@ void PrintMatrix2(int[,] array2)
     {
       System.Console.Write($"{array2[i, j]}\t");
     }
-    System.Console.WriteLine();
+    //System.Console.WriteLine();
+    whiteSpace();
   }
 }
 
@@ -115,6 +117,7 @@ if (cols1 != rows2)
 {
     System.Console.Write("Умножение данных матриц НЕВОЗМОЖНО.");
     printRule();
+    whiteSpace();
     return;
 }
 
@@ -141,7 +144,12 @@ for (int i = 0; i < rows1; i++)
     {
     System.Console.Write($"{resultMatrix[i, j]} \t");
     }
-  System.Console.WriteLine();
+  //System.Console.WriteLine();
+    whiteSpace();
 }
 
-System.Console.WriteLine();  
+void whiteSpace() {
+  System.Console.WriteLine();  
+}
+
+whiteSpace();
