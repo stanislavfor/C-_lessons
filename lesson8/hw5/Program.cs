@@ -30,7 +30,7 @@ int left = 0;
 int right = columnCount - 1;
 int top = 0;
 int bottom = rowCount - 1;
-int currentValue = 1;
+int value = 1;
 
 // Выводим значения массива по спирали
 while (left <= right && top <= bottom)
@@ -38,14 +38,14 @@ while (left <= right && top <= bottom)
   // Шаг вправо
   for (int column = left; column <= right; column++)
   {    
-    array[top, column] = currentValue++;
+    array[top, column] = value++;
   }
   top++;
 
   // Шаг вниз
   for (int row = top; row <= bottom; row++)
   {    
-    array[row, right] = currentValue++;
+    array[row, right] = value++;
   }
   right--;
 
@@ -54,7 +54,7 @@ while (left <= right && top <= bottom)
   {
     for (int column = right; column >= left; column--)
     {      
-      array[bottom, column] = currentValue++;
+      array[bottom, column] = value++;
     }
     bottom--;
   }
@@ -64,7 +64,7 @@ while (left <= right && top <= bottom)
   {
     for (int row = bottom; row >= top; row--)
     {      
-      array[row, left] = currentValue++;
+      array[row, left] = value++;
     }
     left++;
   }
@@ -72,7 +72,7 @@ while (left <= right && top <= bottom)
 
 
 // Выводим двумерный массив в консоль
-Console.WriteLine($"Выводим двумерный массив с числами от 1 до {currentValue - 1}: ->");
+Console.WriteLine($"Выводим двумерный массив с числами от 1 до {value - 1}: ->");
 for (int i = 0; i < rowCount; i++)
 {
   for (int j = 0; j < columnCount; j++)
