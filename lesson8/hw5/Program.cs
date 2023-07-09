@@ -77,7 +77,7 @@ for (int i = 0; i < rowCount; i++)
 {
   for (int j = 0; j < columnCount; j++)
   {
-    Console.Write(array[i, j] + " ");
+    Console.Write(String.Format("{0,-5:00}", (array[i, j])));
   }
   Console.WriteLine();
 }
