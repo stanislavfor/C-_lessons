@@ -20,7 +20,7 @@ int AckermannInt(int m, int n)
   {
     return n + 1;
   }
-  else if (m != 0 && n == 0)
+  else if (m > 0 && n == 0)
   {
     return AckermannInt(m - 1, 1);
   }
